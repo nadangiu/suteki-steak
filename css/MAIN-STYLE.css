@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+	font-size: 16px;
+	background: #f2f2f2;
+
+	line-height: 1.7rem /* chieu cao tung dong trong 1 pagraph*/
+}
+h1,h2,h3
+{
+	font-family: Poppins;
+	margin-bottom: 0px;
+	margin-top: 2px;
+
+	padding-bottom: 8px
+}
+h4 {
+	font-family: Poppins;
+	margin-bottom: 0px;
+
+	margin-top: 8px;
+}
+h6 {color:#411010; font-weight: 600; margin-bottom: 0; margin-top: 0px }
+	p {margin-top: 4px; }
+.font-viettay
+{
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 2rem
+}
+.font-chuky{
+	 font-family:  fontkyten;
+}
+section
+{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.form-control { width: 100%; padding:10px 15px; border: 1px solid #ddd}
+
+.btn-dark{ 
+	background: #411010; 
+	color: #fff;
+	cursor: pointer; 
+	padding: 8px 24px ;
+	border: 1px solid #411010;
+	border-radius: 8px;
+	margin-top: 16px;
+	font-family: Poppins;
+}
+.btn-dark:hover{
+	background: white;
+	color: #411010;
+	border: 2px solid #411010;
+	font-weight: 600;
+}
+
+footer
+{
+	background: #411010;
+	color: #fff;
+	padding: 30px 0 0px ;
+}
+footer p{ padding-bottom: 0; margin: 0}
+.menu-footer a
+{
+	display: block;
+	color: #fff;
+	text-decoration: none
+}
+.menu-footer a:hover{
+	color: #ddd
+}
+
+#tieude-trang
+{
+	position: relative
+}
+.ten-trang
+{
+	position: absolute;
+	width: 50%; 
+	top: 40%;
+	left: 25%;
+	text-align: center;
+	color: #fff
+}
+.ten-trang h1 { font-size: 2rem}
+
+.social-icon a
+{ 
+	color: #BC4000; 
+	margin: 5px
+}
+.social-icon a:hover
+{
+	color: #D16B44
+}
+
+.banner-cover{
+	position: relative; margin: 0; padding: 0
+}
+.caption{ 
+	position: absolute; width: 100%;
+	text-align: center; top: 20%; color: #fff}
+.caption h1{ font-size: 3rem; color: #fff}
+
+
+.header-video{
+	background-color:rgba(255,255,255,0.1); 
+	box-shadow: none;
+	position:absolute; top: 0; left: 0; width: 100%; 
+	z-index: 99999
+}
+.header-video a{ color: white; font-weight: 600}
+.banner-cover-video{ z-index: -100}
+.video-banner
+{
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+}
+#tieude-trang
+{
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.btn-outline-light{ background-color: transparent;
+color: white;
+text-decoration: none;
+border: 1px solid #411010; 
+padding: 6px 20px;
+transition: all 1s;
+margin-top: 15px;
+display: inline-block}
+.btn-outline-light:hover {
+	background-color: white;
+	color: #411010;
+	}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+   }
+
+
+.banner-right:hover >.right-banner-caption-2 {
+opacity: 1;
+	transform: scale(1) rotateX(0deg);
+
+}
+
+
+.btn-outline-dark { background-color: transparent;
+color: black;
+text-decoration: none;
+border: 1px solid; 
+padding: 16px 20px;
+transition: all 1s;
+margin-top: 0px;
+display: inline-block}
+.btn-outline-dark:hover {
+	background-color: black;
+	color: white;
+	}
+.form-control {
+	 width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+     color: #aaa;
+    border-radius: 4px;
+    border: #411010;
+  
+}
+.form-control2 { width: 100%;
+    height: 100px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+     color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;}
+
+.btn-light{
+color: black;
+text-decoration: none;
+border: 1px solid; 
+padding: 7px 10px 8px;
+transition: all 1s;
+text-align: center;
+
+display: inline-block}
+.btn-light:hover {
+	background-color: black;
+	color: white;
+	}
+#about-us h1 {color:#411010}
+
+#about-us h6 {color:#411010; font-weight: 600; }
+#our-menu {background-color: #FCE6E6}
+.steak1{position: relative}
+.steak-content1 {
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	background-color: #411010;
+	left: 0%;
+	top: 8%;
+	opacity: 0;
+	transition: all 1s;
+	transform: scale(0) rotateX(-180); align-items: center;
+	cursor: pointer;
+}
+.steak-content2{position: absolute;
+    top: 50%;
+    left: 52%;
+	    transform: translate(-50%, -50%);
+    width: 90%;
+text-align: left;
+color: white;}
+.steak1:hover >.steak-content1{
+opacity: 1;
+	transform: scale(1) rotateX(0deg);}
+.center-title {text-align: center;
+color: #411010; }
+.center-title h6{color: #411010; margin: 0; font-size: 12px }
+#our-chefs .anh1{position: relative; cursor: pointer}
+#our-chefs .i-ss-circle
+{position: absolute;
+left:0; top:0;
+width:100%;
+height:98%;
+background: #411010;
+opacity: 0;
+transition: .5s;
+display: flex;
+justify-content: center;
+align-items: center;
+	
+
+}
+#our-chefs .anh1:hover >.i-ss-circle{opacity: 1}
+#our-chefs .i-ss-circle a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	/*chieu cao dong = chieu cao vat li thi moi align center duoc*/
+	display: inline-block;
+	margin: 5px;
+	
+	color: black;
+	border-radius: 50%;
+	background-color: white;
+	
+}
+#team .i-ss-circle a:hover{
+	background-color:#CBCBCB;
+	
+}
+.i-ss{
+	background-color: black;}
+#booking {    background-image: url("../images/nanxi-wei-TVzSWDntlOM-unsplash.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+#booking .form-control:hover{border: 2px solid #411010}
+.booking-img{background-color:rgba(229,228,228,0.60); border-radius:16px; }
+.booking-full {padding-left: 16px; padding-right: 16px}
+.shadow-box-about {padding: 30px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    text-align: center;}
+#ingredients h1{padding-top: 8px}
+#contact .form-control {
+    border: 2px solid #f0f0f0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea.form-control {
+    height: auto;
+}
+#contact .form-control:hover{border: 2px solid #411010}
+#contact h1{color:#411010}
